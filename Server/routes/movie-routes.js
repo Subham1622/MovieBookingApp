@@ -6,7 +6,7 @@ import {
   searchMovies,
   deleteMovie,
   getMoviesById,
-} from "../controllers/movie-controller";
+} from "../controllers/movie-controller.js";
 
 // Route logger-middleware
 var mobieRouterLogger =(req,res,next)=>{

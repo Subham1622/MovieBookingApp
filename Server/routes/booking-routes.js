@@ -4,7 +4,7 @@ import {
   getAllbookings,
   getBookingById,
   deleteBooking,
-} from "../controllers/booking-controller";
+} from "../controllers/booking-controller.js";
 
 // Route logger-middleware
 var bookingRouterLogger =(req,res,next)=>{

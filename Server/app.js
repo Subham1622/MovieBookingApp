@@ -1,8 +1,8 @@
 import express from "express";
 import mongoose from "mongoose";
-import movierouter from "./routes/movie-routes";
-import userrouter from "./routes/user-routes";
-import bookingrouter from "./routes/booking-routes";
+import movierouter from "./routes/movie-routes.js";
+import userrouter from "./routes/user-routes.js";
+import bookingrouter from "./routes/booking-routes.js";
 import cors from "cors";
 
 // Setting up environment for mongodb url

@@ -1,5 +1,5 @@
 import express from "express";
-import { getAllUser, signup, login, adminlogin, deleteUser, getUserById } from "../controllers/user-controller";
+import { getAllUser, signup, login, adminlogin, deleteUser, getUserById } from "../controllers/user-controller.js";
 
 // Route logger-middleware
 var userRouterLogger =(req,res,next)=>{

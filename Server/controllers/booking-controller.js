@@ -1,6 +1,6 @@
-import Booking from "../models/bookings";
-import User from "../models/user";
-import Movie from "../models/movie";
+import Booking from "../models/bookings.js";
+import User from "../models/user.js";
+import Movie from "../models/movie.js";
 
 export const getAllbookings = async (req, res) => {
   let bookings;
